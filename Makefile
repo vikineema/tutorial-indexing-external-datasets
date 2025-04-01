@@ -1,6 +1,8 @@
 #!make
 SHELL := /usr/bin/env bash
 
+setup: up init get-jupyter-token
+
 ## Environment setup
 up: ## Bring up your Docker environment
 	docker compose up -d postgres

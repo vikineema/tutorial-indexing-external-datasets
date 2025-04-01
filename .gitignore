@@ -11,3 +11,4 @@
 # Dev containers files
 *.ssh/**
 *.vscode-server/**
+*.dotnet/**
