@@ -8,3 +8,6 @@
 *.npm/**
 # Bash files
 .bash_history
+# Dev containers files
+*.ssh/**
+*.vscode-server/**

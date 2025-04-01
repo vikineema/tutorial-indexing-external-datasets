@@ -1,0 +1,7 @@
+{
+    "name": "My Jupyter Container",
+    "dockerComposeFile": "../compose.yaml",
+    "service": "jupyter",
+    "workspaceFolder": "/home/jovyan",
+    "shutdownAction": "stopCompose"
+}
